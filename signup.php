@@ -3,6 +3,8 @@
 stage1();
 ?>
 <!DOCTYPE html>
+
+
 <html>
 	<head>
 		<title>Dreemer ı Signup</title>
@@ -58,25 +60,8 @@ stage1();
 						<input type="hidden" name="Tokken" value="<?=Token::makeToke(); ?>" />
 					</div>
 				</div>
-			</div>
-		</form>
+		
+    </form>
+	</div>
 
-		<div class="super-div">
-			<div class="options" style="font-family:arial">
-				<div id="profile" style="background-color:black;">
-					<h2 style="color:white">COMPLETE SIGNUP.</h2>
-				</div></a>
-				<div id="create" style="background-color:black;" >
-					<h2 style="color:white">COMPLETE SIGNUP.</h2></a>
-				</div>
-				<div id="search" style="background-color:black;">
-					<h2 style="color:white">COMPLETE SIGNUP.</h2>
-				</div></a>
-			</div>
-		</div>
-	</body>
-	<!--PROBLEMS I HAVE WITH THIS PAGE
-	I CAN'T MAKE THE LOGIN FEATURES STAY ON THE LEFT
-	I CANT KEEP THE BLACK BOX IN THE MIDDLE
-	-->
-</html>
+	
