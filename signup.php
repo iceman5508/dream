@@ -3,16 +3,7 @@
 stage1();
 ?>
 <!DOCTYPE html>
-<html>
-<head>
-<title>Dreemer ı Signup</title>
-<link href="<?=appDir::cssFolder()?>b.css" type="text/css" rel="stylesheet"/>
-<link rel="icon" href="<?=appDir::imagesFolder()?>DREEMER.JPG">
-<meta charset="utf-8" />
-</head>
-<body >
 
-<div id="container">
  
 </div>
 
@@ -42,20 +33,6 @@ font-family:arial;padding-left:1vmin;padding-right:1vh;font-size:5vh;font-weight
 	 <input type="hidden" name="Tokken" value="<?=Token::makeToke();?>" /> 
 </div>
 </div>
-</div>
 </form>
-
-
-<div class="super-div">
-	<div class="options" style="font-family:arial">
-		<div id="profile" style="background-color:black;"><h2 style="color:white">COMPLETE SIGNUP.</h2></div></a>
-		<div id="create" style="background-color:black;" ><h2 style="color:white">COMPLETE SIGNUP.</h2></a></div>
-		<div id="search" style="background-color:black;"><h2 style="color:white">COMPLETE SIGNUP.</h2></div></a>
-	</div>
 </div>
-</body>
-<!--PROBLEMS I HAVE WITH THIS PAGE 
-	I CAN'T MAKE THE LOGIN FEATURES STAY ON THE LEFT 
-	I CANT KEEP THE BLACK BOX IN THE MIDDLE 
--->
-</html>
+
