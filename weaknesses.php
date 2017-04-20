@@ -49,7 +49,15 @@ if(getFormData()!=false)
 ?>
 
 <!DOCTYPE html>
-
+<html>
+<head>
+<title>Dreemer ı Weaknesses</title>
+<link href="<?=appDir::cssFolder()?>b.css" type="text/css" rel="stylesheet"/>
+<link rel="icon" href="<?=appDir::imagesFolder()?>DREEMER.JPG">
+<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container" >
 </div>
 
 <form action="" method="Post">
@@ -82,5 +90,20 @@ if(getFormData()!=false)
 		style="position: absolute; top: 70%; left: 1%; font-family: arial; color: black; background-color: white; font-size: 5vh; padding-right: 3vh; padding-left: 3vh">CONFIRM</button>
 	 <input type="hidden" name="Tokken" value="<?=Token::makeToke();?>" /> 
  </div>
-  </form>
+ </div>
+ </form>
  
+
+ 
+<div class="super-div">
+	<div class="options" style="font-family:arial">
+		<div id="profile" ><h2 >COMPLETE SIGNUP.</h2></div>
+		<div id="create"  ><h2 >COMPLETE SIGNUP.</h2></div>
+		<div id="search" ><h2 >COMPLETE SIGNUP.</h2></div>
+	</div>
+	</div>
+</body>
+	
+
+	</body>
+	</html>
